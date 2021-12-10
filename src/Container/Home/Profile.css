@@ -1,0 +1,77 @@
+:root {
+  --yellow-color: #f5b971;
+  --white-color: #fff;
+}
+* {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  color: var(--white-color);
+}
+
+.colz-icon > a {
+  color: var(--white-color);
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.highlighted-text {
+  color: var(--yellow-color);
+}
+
+.name {
+  font-size: 25px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 10%;
+  min-height: fit-content;
+  background-color: #85a392;
+}
+
+.description {
+  font-size: 25px;
+}
+
+.profile-parent {
+  margin: 100px 0 100px 0;
+}
+
+.primary-text {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  font-weight: 600;
+  margin: 15px 5px 0 5px;
+  padding: 8px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.primary-btn {
+  border: 3px solid var(--yellow-color);
+  background-color: var(--white-color);
+}
+
+.primary-btn:hover {
+  background-color: var(--yellow-color);
+}
+
+.highlighted-btn {
+  border: 3px solid var(--white-color);
+  background-color: var(--yellow-color);
+}
+
+.highlighted-btn:hover {
+  background-color: var(--white-color);
+}
