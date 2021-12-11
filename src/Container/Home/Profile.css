@@ -2,26 +2,30 @@
   --yellow-color: #f5b971;
   --white-color: #fff;
 }
+
 * {
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   color: var(--white-color);
 }
 
+.colz-icon {
+  margin-bottom: 10px;
+}
+
 .colz-icon > a {
   color: var(--white-color);
-  margin-right: 10px;
-  font-size: 25px;
+  margin-right: 20px;
+  font-size: 20px;
 }
 
 .highlighted-text {
   color: var(--yellow-color);
-}
-
-.name {
   font-size: 25px;
 }
 
@@ -41,6 +45,10 @@ body {
 
 .profile-parent {
   margin: 100px 0 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary-text {
@@ -50,7 +58,8 @@ body {
 
 .btn {
   font-weight: 600;
-  margin: 15px 5px 0 5px;
+  font-size: 15px;
+  margin: 30px 5px 0 5px;
   padding: 8px;
   border-radius: 15px;
   letter-spacing: 1px;
@@ -74,4 +83,23 @@ body {
 
 .highlighted-btn:hover {
   background-color: var(--white-color);
+}
+
+.profile-text {
+  line-height: 60px;
+}
+
+.profile-details {
+  width: 500px;
+  margin-right: 100px;
+}
+
+.profile-pic {
+  background-image: url('./assets/profile-img.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
 }

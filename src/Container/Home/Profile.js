@@ -20,23 +20,25 @@ export default function Profile() {
               </a>
             </div>
           </div>
+          <div className="profile-text">
+            <div className="profile-details-name">
+              <span className="primary-text ">
+                안녕하세요, 저는 <span className="highlighted-text ">이다원</span> 입니다.
+              </span>
+            </div>
+            <div className="profile-details-role">
+              <span className="primary-text">
+                {' '}
+                <h1>
+                  저는&nbsp;
+                  <Typical loop={Infinity} wrapper="b" steps={['프론트엔드👩', 2000, '노력하는🔥', 2000, '성장하는💦', 2000]} />
+                  &nbsp;개발자 입니다.
+                </h1>
+                <span className="profile-role-tagline description">프론트엔드 개발자를 꿈꾸는 오니입니다</span>
+              </span>
+            </div>
+          </div>
 
-          <div className="profile-details-name">
-            <span className="primary-text ">
-              안녕하세요, 저는 <span className="highlighted-text name">이다원</span> 입니다.
-            </span>
-          </div>
-          <div className="profile-details-role">
-            <span className="primary-text">
-              {' '}
-              <h1>
-                저는&nbsp;
-                <Typical loop={Infinity} wrapper="b" steps={['프론트엔드👩', 2000, '노력하는🔥', 2000, '성장하는💦', 2000]} />
-                &nbsp;개발자 입니다.
-              </h1>
-              <span className="profile-role-tagline description">프론트엔드 개발자를 꿈꾸는 오니입니다</span>
-            </span>
-          </div>
           <div className="profile-options">
             <button className="btn primary-btn">
               {''}
